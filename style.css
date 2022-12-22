@@ -1,0 +1,177 @@
+header{
+    display: flex;
+    width: 100%;
+   
+}
+#logo{
+    display: flex;
+    align-self: start;
+    display: inline-block;
+}
+nav{
+    padding-top: 10px;
+}
+nav .nav-link{
+    margin-left: 10px;
+}
+nav .nav-link img{
+    height: 10px;
+}
+
+#purple-circle,#green-circle{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+#purple-circle{
+background-color: blueviolet;
+right: 48px;
+top: 0;
+}
+#green-circle{
+    background-color: green;
+    right: 0;
+    top:30px;
+
+}
+.hero{
+    margin-top: 10px;
+    background-color: rgb(113, 83, 250);
+      width: 100%;
+      color: white;
+}
+.hero img{
+    display: flex;
+    align-self: flex-end;
+}
+.container{
+    display: flex;
+    align-items: center;
+    padding-left: 5em;
+    padding-right: 5em;
+    flex-wrap: wrap;
+}
+.icons{
+margin-left: auto;
+}
+.icons img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.hero p{
+    color: rgb(218, 203, 203);
+}
+a.nav-link{
+text-decoration: none;
+}
+.left{
+
+    width: 50%;
+}
+.hero-btn{
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.green{
+    background-color: rgb(121, 201, 154);
+    color: white;
+}
+.right{
+    width: 50%;
+}
+.ad{
+  display: flex;
+  margin-left: 9.5em; 
+}
+.ad img{
+    margin-top: 1em;
+    margin-right: 1em;
+height: 10px;
+padding: 10px;
+background-color: rgb(241, 231, 219);
+border: 1px solid black;
+border-radius: 50%;
+}
+
+
+main{
+    background-color: whitesmoke;
+}
+.card{
+    width: 200px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+   
+}
+.card img{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    padding-left: 15em;
+    padding-right: 15em;
+    flex-wrap: wrap;
+}
+.courses{
+    align-items: center;
+    padding-left: 5em;
+    padding-right: 5em;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+.courses .arrow{
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}
+.line{
+  width: 100%;
+  height: 1px;
+  background-color: grey;
+}
+ img.avatar{
+    margin-top: 1em;
+height: 20px;
+width: 20px;
+}
+img.save {
+    margin-top: 1em;
+    margin-left: 3em;
+    border: none;
+   height: 20px;
+   width: 20px;
+   
+}
+.rater{
+    display: flex;
+    padding: 5px;
+}
+
+small{
+    display: flex;
+    align-items: flex-end;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+
+footer{
+  display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+}
